@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Index */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorMenu {
+    flex-grow: 1;
+    position: fixed;
+    background-color: aquamarine;
+    width: 300px;
+    height: 100vh;
+
+}
+
+.contenedorInicio {
+    overflow-y: scroll;
+    flex-grow: 2;
+    position: fixed;
+    left: 300px;
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Principal */
+
+
+.contenedorFooter { 
+    bottom:0; 
+    z-index:999999;
+    background-color: chartreuse;
+    width: 100%;
+    height: 200px;
+}
+/* footer */
