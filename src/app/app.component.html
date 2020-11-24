@@ -1,10 +1,11 @@
 <div class="contenedor">
   <div class="contenedorMenu"><app-menu></app-menu></div>
-  <div class="contenedorInicio"><app-inicio></app-inicio></div>
+  <div class="contenedorInicio">
+    <div class="principal">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="contenedorFooter">
+      <app-footer></app-footer>
+    </div>
+  </div>
 </div>
-<!--
- <app-menu></app-menu>
-
-<div>
-  <router-outlet></router-outlet>
-</div>-->  

@@ -20,22 +20,32 @@
 }
 
 .contenedorInicio {
-    overflow-y: scroll;
+    overflow-y: scroll; 
     flex-grow: 2;
-    position: fixed;
-    left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 300px;
     background-color: burlywood;
     width: 100%;
     height: 100vh;
     
 }
 
+/*  quitar srcoll
+
+.contenedorInicio::-webkit-scrollbar {
+    display: none;
+} */
+
 /* Principal */
+
+/* .principal {
+    
+} */
 
 
 .contenedorFooter { 
-    bottom:0; 
-    z-index:999999;
     background-color: chartreuse;
     width: 100%;
     height: 200px;

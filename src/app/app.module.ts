@@ -15,6 +15,8 @@ import { BasicoComponent } from './basico/basico.component';
 import { PersonalizadoComponent } from './personalizado/personalizado.component';
 import { PremiumComponent } from './premium/premium.component';
 import { PatronesComponent } from './patrones/patrones.component';
+import { ConjuntosComponent } from './conjuntos/conjuntos.component';
+import { ComplementosComponent } from './complementos/complementos.component';
 
 
 const routes:Routes = [
@@ -25,6 +27,8 @@ const routes:Routes = [
   {path:'premium' , component: PremiumComponent},
   {path:'personalizado' , component: PersonalizadoComponent},
   {path:'patrones' , component: PatronesComponent},
+  {path:'conjuntos' , component: ConjuntosComponent},
+  {path:'complementos' , component: ComplementosComponent},
 ]
 
 @NgModule({
@@ -38,7 +42,9 @@ const routes:Routes = [
     BasicoComponent,
     PersonalizadoComponent,
     PremiumComponent,
-    PatronesComponent
+    PatronesComponent,
+    ConjuntosComponent,
+    ComplementosComponent
   ],
   imports: [
     BrowserModule,
